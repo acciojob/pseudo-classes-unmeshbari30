@@ -2,18 +2,17 @@
 :root{
 	background-color: rgb(135, 206, 235);
 }
-
-div p:first-child{
-	background-color: black;
-	color: white
+article p:first-child {
+    background-color: black;
+    color: white;
 }
 
-div p:nth-child(2){
-	color: initial
+article p:nth-child(2) {
+    color: initial;
 }
 
-div p:last-child{
-	color: red
+article p:last-child {
+    color: red;
 }
 
 ul li{
